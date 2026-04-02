@@ -1,0 +1,151 @@
+[
+  {
+    "type": "hooks",
+    "subtype": "controversy",
+    "niche": "digital marketing",
+    "title": "Controversial Take",
+    "content": "Stop wasting money on ads. Organic content beats paid every single time if you know what you're doing. Here's why 99% of marketers get this backwards...",
+    "notes": "Use this when your audience is frustrated with ad costs"
+  },
+  {
+    "type": "hooks",
+    "subtype": "controversy",
+    "niche": "coaching",
+    "content": "Your 'dream clients' don't exist. And chasing them is killing your business. The sooner you accept this, the faster you'll scale.",
+    "notes": null
+  },
+  {
+    "type": "hooks",
+    "subtype": "listicle",
+    "niche": "affiliate marketing",
+    "title": "Quick List Hook",
+    "content": "5 affiliate mistakes that cost me $10K last month:\n\n1. Promoting products I didn't use\n2. Ignoring email sequences\n3. No tracking pixels\n4. Generic content\n5. Not building trust first\n\nHere's what I changed...",
+    "notes": "Lists perform 3x better than regular posts"
+  },
+  {
+    "type": "hooks",
+    "subtype": "transformation",
+    "niche": "digital products",
+    "content": "6 months ago, I was making $200/month selling templates. Today? $12K/month. Same products. Different strategy. Let me show you what shifted...",
+    "notes": "Always include specific numbers"
+  },
+  {
+    "type": "captions",
+    "subtype": "aida",
+    "niche": "Etsy sellers",
+    "content": "**ATTENTION:** Your Etsy shop is invisible.\n\n**INTEREST:** 90% of sellers make the same SEO mistake. They stuff keywords but ignore buyer intent.\n\n**DESIRE:** Imagine ranking on page 1 for high-intent searches. More views. More sales. Less grinding.\n\n**ACTION:** Comment 'SEO' and I'll send you my free Etsy keyword checklist.",
+    "notes": "AIDA works best for cold audiences"
+  },
+  {
+    "type": "captions",
+    "subtype": "pas",
+    "niche": "coaching programs",
+    "content": "**PROBLEM:** You're trading time for money and there's no scalability.\n\n**AGITATE:** What happens when you get sick? Or want a vacation? Your income stops. Your clients wait. You burn out.\n\n**SOLUTION:** Group coaching + automated systems = predictable income without the 1:1 grind. DM me 'SCALE' to learn how.",
+    "notes": "Use PAS when your audience feels pain"
+  },
+  {
+    "type": "dm-scripts",
+    "subtype": "price-objection",
+    "niche": "mentorship",
+    "content": "I totally understand! Investment is a big decision.\n\nQuick question: If this could save you 6 months of trial and error, would that be worth it?\n\nMost clients make back their investment in the first 30 days. But if you're not ready, no pressure. Want me to check back in a month?",
+    "notes": "Always validate before reframing"
+  },
+  {
+    "type": "dm-scripts",
+    "subtype": "scam-objection",
+    "niche": "digital marketing",
+    "content": "I appreciate you being cautious! There's a lot of noise out there.\n\nHere's what I can offer: Check my testimonials, DM 3 of my current clients, and review the full curriculum before you decide.\n\nI'm not here to convince you—just to show you what's possible. Fair?",
+    "notes": "Transparency builds trust instantly"
+  },
+  {
+    "type": "dm-scripts",
+    "subtype": "timing-objection",
+    "niche": "affiliate marketing",
+    "content": "Totally get it—timing matters!\n\nCan I ask: what needs to happen first before you'd be ready?\n\n[Wait for response]\n\nGot it. How about this: I'll save your spot for 2 weeks. If things align, great. If not, no worries. Does that work?",
+    "notes": "Uncover the real objection with questions"
+  },
+  {
+    "type": "story-templates",
+    "subtype": "5-slide",
+    "niche": "digital products",
+    "content": "**Slide 1:** [Hook] 'I made $847 in one week selling PDFs.'\n\n**Slide 2:** [Problem] 'But 3 months ago, I couldn't give them away for free.'\n\n**Slide 3:** [Discovery] 'Then I learned this ONE thing about positioning...'\n\n**Slide 4:** [Transformation] 'Now I sell the same products at 3x the price.'\n\n**Slide 5:** [CTA] 'Want the strategy? Comment GO below.'",
+    "notes": "Keep each slide to 1 sentence max"
+  },
+  {
+    "type": "hashtags",
+    "subtype": "all",
+    "niche": "coaching",
+    "content": "#onlinecoach #businesscoach #mindsetcoach #lifecoaching #coachingbusiness #entrepreneurcoach #womenentrepreneurs #businessmentor #scaleyourbusiness #6figurebusiness #onlinebusinesscoach #coachingprogram #businessgrowth #passiveincomeideas #digitalentrepreneur",
+    "notes": "Mix of high (500K+) and mid-range (50K-200K) hashtags"
+  },
+  {
+    "type": "hashtags",
+    "subtype": "all",
+    "niche": "digital marketing",
+    "content": "#digitalmarketing #socialmediamarketing #contentmarketing #marketingstrategy #onlinemarketing #marketingtips #smm #digitalmarketingtips #socialmediatips #instagrammarketing #emailmarketing #marketingagency #smallbusinessmarketing #growyourbusiness #marketingdigital",
+    "notes": "Update these monthly based on trends"
+  },
+  {
+    "type": "hooks",
+    "subtype": "controversy",
+    "niche": "Etsy",
+    "content": "Etsy SEO is a scam. There, I said it. You don't need perfect tags—you need products people actually want. Here's the proof...",
+    "notes": null
+  },
+  {
+    "type": "hooks",
+    "subtype": "listicle",
+    "niche": "mentorship",
+    "content": "7 things I wish I knew before starting my mentorship program:\n\n1. You don't need 100 clients\n2. High ticket > high volume\n3. Boundaries are non-negotiable\n4. [Continue in carousel]",
+    "notes": "Tease the rest to boost engagement"
+  },
+  {
+    "type": "captions",
+    "subtype": "aida",
+    "niche": "affiliate marketing",
+    "content": "**STOP scrolling.** This 5-minute strategy made me $3K in affiliate commissions last week.\n\n**Why it works:** People buy from those they trust. Not random links.\n\n**Imagine this:** Passive income while you sleep. No DMs. No sales calls.\n\n**Ready?** Save this post and DM 'GUIDE' for the full breakdown.",
+    "notes": "Save prompts increase reach"
+  },
+  {
+    "type": "dm-scripts",
+    "subtype": "price-objection",
+    "niche": "digital products",
+    "content": "I hear you! $497 isn't small.\n\nLet me flip the question: How much is staying stuck costing you right now?\n\nThis system has helped 200+ people launch in 30 days or less. But if it's truly not in the budget, I respect that. Want to revisit in Q2?",
+    "notes": "Position cost vs. value, not price"
+  },
+  {
+    "type": "story-templates",
+    "subtype": "5-slide",
+    "niche": "coaching",
+    "content": "**Slide 1:** '3 months ago, I had 2 clients.'\n\n**Slide 2:** 'I was undercharging, overdelivering, and completely burnt out.'\n\n**Slide 3:** 'Then I raised my prices by 300%.'\n\n**Slide 4:** 'And signed 8 new clients in 4 weeks.'\n\n**Slide 5:** 'DM me PRICE for the script I used.'",
+    "notes": "Vulnerability + results = engagement"
+  },
+  {
+    "type": "hashtags",
+    "subtype": "all",
+    "niche": "Etsy",
+    "content": "#etsyseller #etsyshop #etsyfinds #etsybusiness #etsysuccess #shopsmall #handmadebusiness #creativeentrepreneur #etsytips #etsysellers #printondemand #digitaldownloads #etsymarketing #smallbusinessowner #makemoneyonline",
+    "notes": "Great for product launches"
+  },
+  {
+    "type": "hooks",
+    "subtype": "transformation",
+    "niche": "mentorship",
+    "content": "I went from 0 followers to 50K and $10K months in 9 months. No ads. No team. Just this strategy repeated daily. Ready?",
+    "notes": "Specific timelines boost credibility"
+  },
+  {
+    "type": "captions",
+    "subtype": "pas",
+    "niche": "digital products",
+    "content": "**PROBLEM:** You've created an amazing digital product but nobody's buying.\n\n**AGITATE:** You're posting daily, using hashtags, engaging... but still crickets. Meanwhile, others with worse products are selling out.\n\n**SOLUTION:** It's not your product. It's your messaging. Comment 'FIX' and I'll show you the 3-part framework that tripled my conversions.",
+    "notes": "Address the emotional pain"
+  },
+  {
+    "type": "dm-scripts",
+    "subtype": "scam-objection",
+    "niche": "coaching",
+    "content": "I totally get the skepticism—smart move!\n\nHere's my offer: Hop on a free 15-min call. No pitch, no pressure. Just value. If you don't walk away with at least one actionable tip, I'll Venmo you $20 for wasting your time.\n\nSound fair?",
+    "notes": "Risk reversal is powerful"
+  }
+]

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Growth & Sales Coach - Premium Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#10B981',
+                        dark: {
+                            100: '#1F2937',
+                            200: '#111827',
+                            300: '#0F172A',
+                            400: '#0A0E1A'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-400 text-gray-100 font-['Inter']">
+    
+    <!-- Main Container -->
+    <div class="flex h-screen overflow-hidden">
+        
+        <!-- Sidebar -->
+        <aside id="sidebar" class="w-72 bg-dark-300 border-r border-gray-800 flex flex-col transition-all duration-300">
+            
+            <!-- Logo -->
+            <div class="p-6 border-b border-gray-800">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-primary to-emerald-600 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-rocket text-white text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-white">IG Sales Coach</h1>
+                        <p class="text-xs text-gray-400">Premium Edition</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="flex-1 overflow-y-auto py-6 px-4">
+                
+                <!-- Viral Hooks -->
+                <div class="mb-6">
+                    <button class="nav-category w-full flex items-center justify-between px-4 py-3 rounded-lg hover:bg-dark-200 transition-colors text-left" data-category="viral-hooks">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-fire text-primary"></i>
+                            <span class="font-semibold">Viral Hooks</span>
+                        </div>
+                        <i class="fas fa-chevron-down text-xs transition-transform"></i>
+                    </button>
+                    <div class="nav-subcategory ml-8 mt-2 space-y-1 hidden">
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="hooks" data-subtype="controversy">
+                            Controversy
+                        </button>
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="hooks" data-subtype="listicle">
+                            Listicle
+                        </button>
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="hooks" data-subtype="transformation">
+                            Transformation
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Caption Bank -->
+                <div class="mb-6">
+                    <button class="nav-category w-full flex items-center justify-between px-4 py-3 rounded-lg hover:bg-dark-200 transition-colors text-left" data-category="caption-bank">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-align-left text-primary"></i>
+                            <span class="font-semibold">Caption Bank</span>
+                        </div>
+                        <i class="fas fa-chevron-down text-xs transition-transform"></i>
+                    </button>
+                    <div class="nav-subcategory ml-8 mt-2 space-y-1 hidden">
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="captions" data-subtype="aida">
+                            AIDA Framework
+                        </button>
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="captions" data-subtype="pas">
+                            PAS Framework
+                        </button>
+                    </div>
+                </div>
+
+                <!-- DM Sales & Objections -->
+                <div class="mb-6">
+                    <button class="nav-category w-full flex items-center justify-between px-4 py-3 rounded-lg hover:bg-dark-200 transition-colors text-left" data-category="dm-sales">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-comments text-primary"></i>
+                            <span class="font-semibold">DM Sales</span>
+                        </div>
+                        <i class="fas fa-chevron-down text-xs transition-transform"></i>
+                    </button>
+                    <div class="nav-subcategory ml-8 mt-2 space-y-1 hidden">
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="dm-scripts" data-subtype="price-objection">
+                            Price Too High
+                        </button>
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="dm-scripts" data-subtype="scam-objection">
+                            Is This a Scam?
+                        </button>
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="dm-scripts" data-subtype="timing-objection">
+                            Not the Right Time
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Story Selling -->
+                <div class="mb-6">
+                    <button class="nav-category w-full flex items-center justify-between px-4 py-3 rounded-lg hover:bg-dark-200 transition-colors text-left" data-category="story-selling">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-film text-primary"></i>
+                            <span class="font-semibold">Story Selling</span>
+                        </div>
+                        <i class="fas fa-chevron-down text-xs transition-transform"></i>
+                    </button>
+                    <div class="nav-subcategory ml-8 mt-2 space-y-1 hidden">
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="story-templates" data-subtype="5-slide">
+                            5-Slide Sequence
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Hashtag Strategist -->
+                <div class="mb-6">
+                    <button class="nav-category w-full flex items-center justify-between px-4 py-3 rounded-lg hover:bg-dark-200 transition-colors text-left" data-category="hashtags">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-hashtag text-primary"></i>
+                            <span class="font-semibold">Hashtag Sets</span>
+                        </div>
+                        <i class="fas fa-chevron-down text-xs transition-transform"></i>
+                    </button>
+                    <div class="nav-subcategory ml-8 mt-2 space-y-1 hidden">
+                        <button class="sub-nav-btn w-full text-left px-4 py-2 rounded text-sm text-gray-400 hover:text-primary hover:bg-dark-200 transition-colors" data-type="hashtags" data-subtype="all">
+                            All Niches
+                        </button>
+                    </div>
+                </div>
+
+            </nav>
+
+            <!-- Footer -->
+            <div class="p-4 border-t border-gray-800">
+                <div class="bg-gradient-to-r from-primary/20 to-emerald-600/20 rounded-lg p-4 border border-primary/30">
+                    <div class="flex items-center space-x-2 mb-2">
+                        <i class="fas fa-crown text-primary"></i>
+                        <span class="text-sm font-semibold">Pro Version</span>
+                    </div>
+                    <p class="text-xs text-gray-400">Full access to all premium scripts</p>
+                </div>
+            </div>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 flex flex-col overflow-hidden">
+            
+            <!-- Header -->
+            <header class="bg-dark-300 border-b border-gray-800 px-8 py-6">
+                <div class="flex items-center justify-between">
+                    <div class="flex-1 max-w-2xl">
+                        <div class="relative">
+                            <i class="fas fa-search absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500"></i>
+                            <input 
+                                type="text" 
+                                id="searchInput" 
+                                placeholder="Search by niche (e.g., 'digital marketing', 'coaching', 'Etsy')..." 
+                                class="w-full bg-dark-400 border border-gray-700 rounded-lg pl-12 pr-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-primary transition-colors"
+                            >
+                        </div>
+                    </div>
+                    <div class="ml-6 flex items-center space-x-4">
+                        <button id="randomizeBtn" class="px-6 py-3 bg-primary hover:bg-emerald-600 text-white rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg shadow-primary/20">
+                            <i class="fas fa-random mr-2"></i>Randomize
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Content Area -->
+            <div class="flex-1 overflow-y-auto bg-dark-400 p-8">
+                
+                <!-- Welcome Screen -->
+                <div id="welcomeScreen" class="max-w-4xl mx-auto">
+                    <div class="text-center py-20">
+                        <div class="w-24 h-24 bg-gradient-to-br from-primary to-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-2xl shadow-primary/30">
+                            <i class="fas fa-rocket text-white text-4xl"></i>
+                        </div>
+                        <h2 class="text-4xl font-bold text-white mb-4">Welcome to Your IG Sales Coach</h2>
+                        <p class="text-xl text-gray-400 mb-8">Premium scripts, hooks, and strategies for digital product sellers</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+                            <div class="bg-dark-300 rounded-xl p-6 border border-gray-800 hover:border-primary/50 transition-colors">
+                                <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
+                                    <i class="fas fa-fire text-primary text-xl"></i>
+                                </div>
+                                <h3 class="text-lg font-semibold text-white mb-2">Viral Hooks</h3>
+                                <p class="text-sm text-gray-400">Proven attention-grabbing openers</p>
+                            </div>
+                            <div class="bg-dark-300 rounded-xl p-6 border border-gray-800 hover:border-primary/50 transition-colors">
+                                <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
+                                    <i class="fas fa-comments text-primary text-xl"></i>
+                                </div>
+                                <h3 class="text-lg font-semibold text-white mb-2">DM Scripts</h3>
+                                <p class="text-sm text-gray-400">Handle objections like a pro</p>
+                            </div>
+                            <div class="bg-dark-300 rounded-xl p-6 border border-gray-800 hover:border-primary/50 transition-colors">
+                                <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-4">
+                                    <i class="fas fa-hashtag text-primary text-xl"></i>
+                                </div>
+                                <h3 class="text-lg font-semibold text-white mb-2">Smart Hashtags</h3>
+                                <p class="text-sm text-gray-400">Niche-specific reach sets</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-12 text-gray-500 text-sm">
+                            <i class="fas fa-arrow-left mr-2"></i>Select a category from the sidebar to get started
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results Container -->
+                <div id="resultsContainer" class="hidden">
+                    <div class="mb-6 flex items-center justify-between">
+                        <div>
+                            <h2 id="categoryTitle" class="text-2xl font-bold text-white mb-1"></h2>
+                            <p id="categorySubtitle" class="text-gray-400"></p>
+                        </div>
+                        <div class="text-sm text-gray-500">
+                            <span id="resultCount">0</span> results
+                        </div>
+                    </div>
+
+                    <div id="contentGrid" class="grid grid-cols-1 gap-4">
+                        <!-- Content cards will be inserted here -->
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

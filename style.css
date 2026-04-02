@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0A0E1A;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #374151;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4B5563;
+}
+
+/* Navigation Animations */
+.nav-category.active {
+    background: #111827;
+}
+
+.nav-category.active i:last-child {
+    transform: rotate(180deg);
+}
+
+.sub-nav-btn.active {
+    color: #10B981;
+    background: #111827;
+    font-weight: 600;
+}
+
+/* Content Card Styles */
+.content-card {
+    background: #0F172A;
+    border: 1px solid #1F2937;
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #10B981, #059669);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.content-card:hover {
+    border-color: #10B981;
+    transform: translateY(-2px);
+    box-shadow: 0 20px 40px rgba(16, 185, 129, 0.1);
+}
+
+.content-card:hover::before {
+    opacity: 1;
+}
+
+.content-text {
+    background: #111827;
+    border: 1px solid #1F2937;
+    border-radius: 8px;
+    padding: 16px;
+    color: #E5E7EB;
+    line-height: 1.6;
+    font-size: 14px;
+    margin: 16px 0;
+    white-space: pre-wrap;
+}
+
+.copy-btn {
+    background: #10B981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.copy-btn:hover {
+    background: #059669;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.copy-btn.copied {
+    background: #6366F1;
+}
+
+.niche-badge {
+    display: inline-block;
+    background: #10B981;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Loading Animation */
+.loading {
+    text-align: center;
+    padding: 40px;
+}
+
+.loading-spinner {
+    border: 3px solid #1F2937;
+    border-top: 3px solid #10B981;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content-card {
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    #sidebar {
+        position: fixed;
+        left: -288px;
+        z-index: 50;
+        height: 100vh;
+    }
+    
+    #sidebar.mobile-open {
+        left: 0;
+    }
+}
+
+/* Gradient Text */
+.gradient-text {
+    background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Tooltip */
+.tooltip {
+    position: relative;
+}
+
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1F2937;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    margin-bottom: 8px;
+}
+
+.tooltip:hover::after {
+    opacity: 1;
+}
